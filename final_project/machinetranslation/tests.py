@@ -12,6 +12,5 @@ class TestTranslator(unittest.TestCase):
         self.assertIsNotNone(french_to_english("Bonjour"))
         self.assertEqual(french_to_english("Bonjour"),"Hello")
 
-
 if __name__ == "__main__":
     unittest.main()
